@@ -46,7 +46,7 @@ Run each service from IntelliJ IDEA or from the terminal:
 
 ### 🔑 Auth Service
 - `POST /auth/register` → Register a new user  
-- `POST /auth/login` → Authenticate a user & get JWT  
+- `POST /auth/authinticate` → Authenticate a user & get JWT  
 - `GET /auth/validate-and-get-info` → Validate token & return user's authorities  
 
 ### 🎯 Role-Based Service
@@ -80,7 +80,8 @@ Run each service from IntelliJ IDEA or from the terminal:
 ## ✅ Tech Stack
 
 - **Spring Boot 3**  
-- **Spring Security** with JWT  
+- **Spring Security** with JWT
+- **Spring Data JPA** with JWT  
 - **Spring Cloud** (Eureka, Gateway)  
 - **Postgres** & **pgAdmin** (Docker)  
 - **Lombok**  
