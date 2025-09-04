@@ -98,7 +98,7 @@ Run each service from IntelliJ IDEA or from the terminal:
 4. Start `api-gateway`.  
 5. Start `role-based-service`.  
 
-👉 Access APIs via: `http://localhost:8080` (API Gateway entry point).  
+👉 Access APIs via: `http://localhost:8222` (API Gateway entry point).  
 
 ---
 
