@@ -52,7 +52,8 @@ Run each service from IntelliJ IDEA or from the terminal:
 ### 🎯 Role-Based Service
 - `GET /role-based/admin` → Accessible only by `ADMIN` role  
 - `GET /role-based/user` → Accessible only by `USER` role  
-
+- `GET /role-based/both` → Accessible  by `USER` and `ADMIN` role
+-  `GET /role-based/public` → Accessible without authentication or authorization  
 ---
 
 ## 📂 Project Structure
